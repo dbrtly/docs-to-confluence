@@ -1,0 +1,10 @@
+steps:
+- name: 'gcr.io/cloud-builders/docker'
+  args: ['build', '-t', 'ghcr.io/markdown-confluence/publish:sha256:db78f6a586080bd53fc175559c9d3dcda7bd813d7ad9920884fd344c0fb78b11', '.']
+  secretEnv: ['ATLASSIAN_API_TOKEN', 'ATLASSIAN_USERNAME']
+availableSecrets:
+  secretManager:
+  - versionName: projects/$PROJECT_ID/secrets/atlassian_api_token/versions/latest
+    env: 'ATLASSIAN_API_TOKEN'
+  - versionName: projects/$PROJECT_ID/secrets/atlassian_username/versions/latest
+    env: 'ATLASSIAN_USERNAME'
