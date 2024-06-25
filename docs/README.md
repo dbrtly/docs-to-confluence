@@ -12,3 +12,4 @@ Close proximity between the code and documentation is generally perceived to mak
 
 [Documentation should be close to the code](https://principles.dev/p/documentation-should-be-close-to-the-code)
 [Code Documentation Best Practices and Standards: A Complete Guide](https://blog.codacy.com/code-documentation)
+

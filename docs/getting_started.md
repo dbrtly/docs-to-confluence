@@ -58,14 +58,3 @@ Rhoetei fata lapides ulvam in honore a mirata adventus Emathii caelum. Res
 genitor latuere; pressos commota. Sine possit magni! Sum vasta Aetnen sedem
 fauces obstante, sed Perseus longa decipit, vera, cum. Tamen cognita primum
 instabilis altus nec postquam flere; Dymantida fieri.
-
-```sql
-select * from publish.to_confluence
-
-```
-
-## Kyoto, Japan
-
-![Temple at sunset in Kyto Japan](https://img.etimg.com/thumb/msid-93504219,width-650,height-488,imgsize-145174,resizemode-75/japan.jpg)
-
-![Temple at sunset in Kyto Japan](img/japan.jpg)
